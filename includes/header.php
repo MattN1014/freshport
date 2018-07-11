@@ -19,6 +19,39 @@
 	</head>
 	<body>
 		<header>
-
+			 <nav class="navbar navbar-expand-lg fixed-top">
+			 	<div class="container-fluid">
+			 		<a class="navbar-brand" href="index.php">
+			 			Freshport
+			 		</a>
+			 		<button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggler">
+			 			Menu<i class="fa fa-align-justify"></i>
+			 		</button>
+			 		<div id="navigation" class="collapse navbar-collapse navbar-right">
+			 			<ul class="navbar-nav ml-auto">
+			 				<li class="nav-item">
+			 					<a href="#" class="nav-link link-scroll">
+			 						About
+			 					</a>
+			 				</li>
+			 				<li class="nav-item">
+			 					<a href="#" class="nav-link link-scroll">
+			 						Services
+			 					</a>
+			 				</li>
+			 				<li class="nav-item">
+			 					<a href="#" class="nav-link link-scroll">
+			 						Portfolio
+			 					</a>
+			 				</li>
+			 				<li class="nav-item">
+			 					<a href="#" class="nav-link link-scroll">
+			 						Contact
+			 					</a>
+			 				</li>
+			 			</ul>
+			 		</div><!-- closes navbar-collapse -->
+			 	</div><!-- container -->
+			 </nav><!-- nav -->
 		</header>
 		<div class="site-wrapper">
