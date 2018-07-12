@@ -5,12 +5,74 @@ body,
 html {
   background-color: #ffffff;
   font-family: 'Markazi Text', serif;
+  font-size: 16px;
   height: 100%;
   max-width: 100%;
+  margin: 0;
   padding: 0;
 }
 .site-wrapper {
   min-height: 100%;
   height: auto;
+  margin: 0;
   padding: 0;
 }
+/*===========================================================
+                    Header / Nav styles
+===========================================================*/
+header {
+  background-color: transparent;
+}
+header .navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 2.2rem;
+  text-shadow: 2px 2px 2px #45b7f0;
+}
+header .navbar .navbar-nav > .nav-item > .nav-link {
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+/*===========================================================
+                    Hero styles
+===========================================================*/
+.hero {
+  background: url('../img/bg/713.png') no-repeat top center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: #ffffff;
+  margin: 0;
+  padding: 75px 0;
+  text-align: center;
+}
+#hero .hero-inner {
+  padding: 20px 0;
+}
+#hero .hero-inner h3 {
+  margin: 0;
+}
+#hero .hero-inner h1 {
+  font-size: 5rem;
+  text-shadow: 2px 2px 5px #45b7f0;
+}
+#hero .hero-inner p {
+  font-size: 1.6rem;
+}
+#hero .hero-inner .btn {
+  text-transform: capitalize;
+}
+/*===========================================================
+                    About section styles
+===========================================================*/
+/*===========================================================
+                    Services section styles
+===========================================================*/
+/*===========================================================
+                 	Portfolio section styles
+===========================================================*/
+/*===========================================================
+                    Contact Section Styles
+===========================================================*/
+/*===========================================================
+                    Footer Styles
+===========================================================*/

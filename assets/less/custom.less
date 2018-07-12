@@ -1,7 +1,7 @@
 //Variables
 
-@primary: ;
-@secondry: ;
+@primary: #34495e;
+@secondry: #45B7F0;
 @b: #000000;
 @w: #ffffff;
 @im: !important;
@@ -14,9 +14,11 @@ body,
 html {
 	background-color: @w;
 	font-family: 'Markazi Text', serif;
+	font-size: 16px;
 	height: 100%;
-	max-width: 100%;
-	padding: 0;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -25,6 +27,94 @@ body {
 
 .site-wrapper {
 	min-height: 100%;
-	height: auto;
-	padding: 0;
+    height: auto;
+    margin: 0;
+    padding: 0;
 }
+
+/*===========================================================
+                    Header / Nav styles
+===========================================================*/
+
+header {
+	background-color: transparent;
+}
+
+header .navbar {
+
+}
+
+header .navbar .navbar-brand {
+	color: @w;
+	font-size: 2.2rem;
+	text-shadow: 2px 2px 2px @secondry;
+}
+
+header .navbar .navbar-nav {
+
+}
+
+header .navbar .navbar-nav > .nav-item {
+
+}
+
+header .navbar .navbar-nav > .nav-item > .nav-link {
+	color: @w;
+	font-size: 1.4rem;
+}
+
+/*===========================================================
+                    Hero styles
+===========================================================*/
+
+.hero {
+	background: url('../img/bg/713.png') no-repeat top center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    color: @w;
+    margin: 0;
+    padding: 75px 0;
+	text-align: center;
+}
+
+#hero .hero-inner {
+	padding: 20px 0;
+}
+
+#hero .hero-inner h3 {
+	margin: 0;
+}
+
+#hero .hero-inner h1 {
+	font-size: 5rem;
+	text-shadow: 2px 2px 5px @secondry;
+}
+
+#hero .hero-inner p {
+	font-size: 1.6rem;
+}
+
+#hero .hero-inner .btn {
+	text-transform: capitalize;
+}
+
+/*===========================================================
+                    About section styles
+===========================================================*/
+
+/*===========================================================
+                    Services section styles
+===========================================================*/
+
+/*===========================================================
+                 	Portfolio section styles
+===========================================================*/
+
+/*===========================================================
+                    Contact Section Styles
+===========================================================*/
+
+/*===========================================================
+                    Footer Styles
+===========================================================*/
