@@ -4,6 +4,7 @@
 @secondry: #45B7F0;
 @b: #000000;
 @w: #ffffff;
+@light-grey: #fafafa;
 @im: !important;
 
 /*===========================================================
@@ -36,31 +37,54 @@ body {
                     Header / Nav styles
 ===========================================================*/
 
-header {
+.header {
 	background-color: transparent;
 }
 
-header .navbar {
+.header .navbar {
 
 }
 
-header .navbar .navbar-brand {
+.header .navbar .navbar-brand {
 	color: @w;
 	font-size: 2.2rem;
 	text-shadow: 2px 2px 2px @secondry;
 }
 
-header .navbar .navbar-nav {
+.header .navbar .navbar-nav {
 
 }
 
-header .navbar .navbar-nav > .nav-item {
+.header .navbar .navbar-nav > .nav-item {
 
 }
 
-header .navbar .navbar-nav > .nav-item > .nav-link {
+.header .navbar .navbar-nav > .nav-item > .nav-link {
 	color: @w;
 	font-size: 1.4rem;
+}
+
+.header .navbar .navbar-nav > .nav-item:active > .nav-link,
+.header .navbar .navbar-nav > .nav-item:focus > .nav-link,
+.header .navbar .navbar-nav > .nav-item:hover > .nav-link,
+.header .navbar .navbar-nav > .nav-item > .nav-link.active,
+.header .navbar .navbar-nav > .nav-item > .nav-link:hover,
+.header .navbar .navbar-nav > .nav-item > .nav-link:focus {
+	color: @secondry;
+}
+
+//navbar when scrolled styles
+
+.header .navbar-scrolled {
+	background-color: @w;
+}
+
+.header .navbar-scrolled .navbar-brand {
+	color: @primary;
+}
+
+.header .navbar-scrolled .navbar-nav > .nav-item > .nav-link {
+	color: @primary;
 }
 
 /*===========================================================
@@ -74,7 +98,7 @@ header .navbar .navbar-nav > .nav-item > .nav-link {
     background-size: cover;
     color: @w;
     margin: 0;
-    padding: 75px 0;
+    padding: 100px 0;
 	text-align: center;
 }
 
@@ -103,6 +127,32 @@ header .navbar .navbar-nav > .nav-item > .nav-link {
                     About section styles
 ===========================================================*/
 
+#about {
+	background-color: @light-grey;
+	padding: 40px 0;
+}
+
+#about img {
+	border: 2.5px solid @secondry;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	display: block;
+	height: 250px;
+	margin: 10px auto;
+	width: 100%\9;
+}
+
+#about h2 {
+	color: lighten(@b, 50%);
+	font-size: 2.3rem;
+}
+
+#about p {
+	color: lighten(@b, 40%);
+	font-size: 1.1rem;
+}
+
 /*===========================================================
                     Services section styles
 ===========================================================*/
@@ -118,3 +168,32 @@ header .navbar .navbar-nav > .nav-item > .nav-link {
 /*===========================================================
                     Footer Styles
 ===========================================================*/
+
+footer {
+	background-color: @primary;
+	color: lighten(@primary, 25%);
+	font-size: 1.1rem;
+	padding: 15px 0;
+}
+
+footer p {
+	margin-bottom: 0;
+}
+
+footer .copyright {
+	text-align: left;
+}
+
+footer .des-by {
+	text-align: right;
+}
+
+footer .des-by a {
+	color: lighten(@primary, 25%);
+	text-decoration: none;
+}
+
+footer .des-by a:hover {
+	color: @secondry;
+	text-decoration: none;
+}
