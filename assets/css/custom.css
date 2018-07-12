@@ -39,9 +39,11 @@ html {
 .header .navbar .navbar-nav > .nav-item > .nav-link:hover,
 .header .navbar .navbar-nav > .nav-item > .nav-link:focus {
   color: #45b7f0;
+  transition: ease-in-out 0.4s;
 }
 .header .navbar-scrolled {
   background-color: #ffffff;
+  transition: ease-in-out 1.5s;
 }
 .header .navbar-scrolled .navbar-brand {
   color: #34495e;
