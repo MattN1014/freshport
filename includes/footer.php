@@ -1,6 +1,22 @@
 	</div><!-- closes site-wrapper -->
-	<footer>
+    <section id="contact">
 
+    </section>
+	<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col copyright">
+                    <p>
+                        &copy; <?php echo date('Y'); ?> Your company | All Rights Reserved
+                    </p>
+                </div>
+                <div class="col des-by">
+                    <p>
+                        Designed by <a target="_blank" href="https://www.mwn-design.co.uk">MWN Design</a>
+                    </p>
+                </div>
+            </div>
+        </div>
 	</footer>
 	<!-- link in JS files -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
