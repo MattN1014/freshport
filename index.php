@@ -21,7 +21,7 @@
 	</div><!-- container -->
 </section><!-- closes hero section -->
 
-<section id="about" class="about">
+<section id="about" class="about wow fadeIn" data-wow-duration="3s" data-wow-delay="0.5s">
 	<div class="container text-center">
 		<div class="row">
 			<div class="col-md-4">
