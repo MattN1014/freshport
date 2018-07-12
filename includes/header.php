@@ -27,7 +27,7 @@
 			 		<button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggler">
 			 			Menu<i class="fa fa-align-justify"></i>
 			 		</button>
-			 		<div id="navigation" class="collapse navbar-collapse navbar-right">
+			 		<div id="navigation" class="collapse navbar-collapse">
 			 			<ul class="navbar-nav ml-auto">
 			 				<li class="nav-item">
 			 					<a href="#" class="nav-link link-scroll">
