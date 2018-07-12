@@ -18,7 +18,7 @@
         <link href="https://fonts.googleapis.com/css?family=Markazi+Text" rel="stylesheet">
 	</head>
 	<body>
-		<header>
+		<header class="header">
 			 <nav class="navbar navbar-expand-lg fixed-top">
 			 	<div class="container-fluid">
 			 		<a class="navbar-brand" href="index.php">
@@ -30,7 +30,7 @@
 			 		<div id="navigation" class="collapse navbar-collapse">
 			 			<ul class="navbar-nav ml-auto">
 			 				<li class="nav-item">
-			 					<a href="#" class="nav-link link-scroll">
+			 					<a href="#about" class="nav-link link-scroll">
 			 						About
 			 					</a>
 			 				</li>
@@ -45,7 +45,7 @@
 			 					</a>
 			 				</li>
 			 				<li class="nav-item">
-			 					<a href="#" class="nav-link link-scroll">
+			 					<a href="#contact" class="nav-link link-scroll">
 			 						Contact
 			 					</a>
 			 				</li>
