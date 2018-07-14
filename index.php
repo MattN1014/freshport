@@ -170,8 +170,68 @@
 				</a>
 			</div><!-- item -->
 			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
-				<a href="" data-toggle="modal" data-target="my-port-item24">
+				<a href="" data-toggle="modal" data-target="my-port-item4">
 					<img class="img-fluid" src="assets/img/port/item-4.jpg">
+					<div class="overlay">
+						<div class="content">
+							<h2>
+								Item Name
+							</h2>
+							<p>
+								Lorem ipsum dolor sit amet
+							</p>
+						</div><!-- content -->
+					</div><!-- overlay -->
+				</a>
+			</div><!-- item -->
+			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
+				<a href="" data-toggle="modal" data-target="my-port-item5">
+					<img class="img-fluid" src="assets/img/port/item-5.jpg">
+					<div class="overlay">
+						<div class="content">
+							<h2>
+								Item Name
+							</h2>
+							<p>
+								Lorem ipsum dolor sit amet
+							</p>
+						</div><!-- content -->
+					</div><!-- overlay -->
+				</a>
+			</div><!-- item -->
+			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
+				<a href="" data-toggle="modal" data-target="my-port-item6">
+					<img class="img-fluid" src="assets/img/port/item-6.jpg">
+					<div class="overlay">
+						<div class="content">
+							<h2>
+								Item Name
+							</h2>
+							<p>
+								Lorem ipsum dolor sit amet
+							</p>
+						</div><!-- content -->
+					</div><!-- overlay -->
+				</a>
+			</div><!-- item -->
+			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
+				<a href="" data-toggle="modal" data-target="my-port-item7">
+					<img class="img-fluid" src="assets/img/port/item-7.jpg">
+					<div class="overlay">
+						<div class="content">
+							<h2>
+								Item Name
+							</h2>
+							<p>
+								Lorem ipsum dolor sit amet
+							</p>
+						</div><!-- content -->
+					</div><!-- overlay -->
+				</a>
+			</div><!-- item -->
+			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
+				<a href="" data-toggle="modal" data-target="my-port-item8">
+					<img class="img-fluid" src="assets/img/port/item-8.jpg">
 					<div class="overlay">
 						<div class="content">
 							<h2>
