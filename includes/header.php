@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
         <link rel="stylesheet" href="assets/css/animate.min.css">
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.css">
         <link rel="stylesheet" href="assets/css/custom.css">
 
         <!-- link Google Fonts -->
