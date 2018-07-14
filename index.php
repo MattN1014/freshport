@@ -126,7 +126,19 @@
 <section id="portfolio" class="portfolio">
 	<div class="container-fluid">
 		<div class="row">
-
+			<div class="item col-md-3">
+				<a href="" data-toggle="modal" data-target="my-port-item1">
+					<img class="img-fluid" src="assets/img/port/item-1.jpg">
+					<div class="overlay">
+						<div class="content">
+							<h2>Item Name</h2>
+							<p>
+								Lorem ipsum dolor sit amet
+							</p>
+						</div><!-- content -->
+					</div><!-- overlay -->
+				</a>
+			</div><!-- item -->
 		</div><!-- row -->
 	</div><!-- container -->
 </section><!-- closes portfolio section -->
