@@ -5,12 +5,12 @@
 	<footer>
         <div class="container">
             <div class="row">
-                <div class="col copyright">
+                <div class="col-md-6 copyright">
                     <p>
                         &copy; <?php echo date('Y'); ?> Your company | All Rights Reserved
                     </p>
                 </div>
-                <div class="col des-by">
+                <div class="col-md-6 des-by">
                     <p>
                         Designed by <a target="_blank" href="https://www.mwn-design.co.uk">MWN Design</a>
                     </p>
