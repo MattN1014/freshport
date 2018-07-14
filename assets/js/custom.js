@@ -27,3 +27,30 @@ $(function (){
 
 });
 
+//Stats
+$('#stats').ready(function() {
+    $('.websites').animationCounter({
+        start: 0,
+        step: 1,
+        end: 30,
+        delay: 600
+    });
+    $('.code').animationCounter({
+        start: 0,
+        step: 10,
+        end: 15000,
+        delay: 400
+    });
+    $('.places').animationCounter({
+        start: 0,
+        step: 1,
+        end: 35,
+        delay: 1200
+    });
+    $('.clients').animationCounter({
+        start: 0,
+        step: 1,
+        end: 30,
+        delay: 1500
+    });
+});
