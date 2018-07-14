@@ -126,8 +126,8 @@
 <section id="portfolio" class="portfolio">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
-				<a href="" data-toggle="modal" data-target="my-port-item1">
+			<div class="item col-md-3">
+				<a href="" data-toggle="modal" data-target="#my-port-item1">
 					<img class="img-fluid" src="assets/img/port/item-1.jpg">
 					<div class="overlay">
 						<div class="content">
@@ -139,8 +139,8 @@
 					</div><!-- overlay -->
 				</a>
 			</div><!-- item -->
-			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
-				<a href="" data-toggle="modal" data-target="my-port-item2">
+			<div class="item col-md-3">
+				<a href="" data-toggle="modal" data-target="#my-port-item2">
 					<img class="img-fluid" src="assets/img/port/item-2.jpg">
 					<div class="overlay">
 						<div class="content">
@@ -154,8 +154,8 @@
 					</div><!-- overlay -->
 				</a>
 			</div><!-- item -->
-			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
-				<a href="" data-toggle="modal" data-target="my-port-item3">
+			<div class="item col-md-3">
+				<a href="" data-toggle="modal" data-target="#my-port-item3">
 					<img class="img-fluid" src="assets/img/port/item-3.jpg">
 					<div class="overlay">
 						<div class="content">
@@ -169,8 +169,8 @@
 					</div><!-- overlay -->
 				</a>
 			</div><!-- item -->
-			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
-				<a href="" data-toggle="modal" data-target="my-port-item4">
+			<div class="item col-md-3">
+				<a href="" data-toggle="modal" data-target="#my-port-item4">
 					<img class="img-fluid" src="assets/img/port/item-4.jpg">
 					<div class="overlay">
 						<div class="content">
@@ -184,8 +184,8 @@
 					</div><!-- overlay -->
 				</a>
 			</div><!-- item -->
-			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
-				<a href="" data-toggle="modal" data-target="my-port-item5">
+			<div class="item col-md-3">
+				<a href="" data-toggle="modal" data-target="#my-port-item5">
 					<img class="img-fluid" src="assets/img/port/item-5.jpg">
 					<div class="overlay">
 						<div class="content">
@@ -199,8 +199,8 @@
 					</div><!-- overlay -->
 				</a>
 			</div><!-- item -->
-			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
-				<a href="" data-toggle="modal" data-target="my-port-item6">
+			<div class="item col-md-3">
+				<a href="" data-toggle="modal" data-target="#my-port-item6">
 					<img class="img-fluid" src="assets/img/port/item-6.jpg">
 					<div class="overlay">
 						<div class="content">
@@ -214,8 +214,8 @@
 					</div><!-- overlay -->
 				</a>
 			</div><!-- item -->
-			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
-				<a href="" data-toggle="modal" data-target="my-port-item7">
+			<div class="item col-md-3">
+				<a href="" data-toggle="modal" data-target="#my-port-item7">
 					<img class="img-fluid" src="assets/img/port/item-7.jpg">
 					<div class="overlay">
 						<div class="content">
@@ -229,8 +229,8 @@
 					</div><!-- overlay -->
 				</a>
 			</div><!-- item -->
-			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
-				<a href="" data-toggle="modal" data-target="my-port-item8">
+			<div class="item col-md-3">
+				<a href="" data-toggle="modal" data-target="#my-port-item8">
 					<img class="img-fluid" src="assets/img/port/item-8.jpg">
 					<div class="overlay">
 						<div class="content">
@@ -283,4 +283,117 @@
 	</div><!-- container -->
 </section><!-- closes stats section -->
 
+<section id="testimonails" class="testimonials">
+	<div class="container text-center">
+		<header>
+			<h2 class="small-heading">
+				Testmonials
+			</h2>
+			<h3>
+				What our customers say
+			</h3>
+		</header>
+		<div class="icon">
+			<i class="fas fa-quote-left"></i>
+		</div><!-- icon -->
+		<div class="row">
+			<div class="col-md-10 mx-auto">
+				<div class="owl-carousel owl-theme testimonials-slider">
+					<div class="user">
+						<div class="quote">
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+							</p>
+						</div><!-- quote -->
+						<div class="user-info">
+							<h3>
+								John Doe
+							</h3>
+							<span>
+								Joe Blogs LLC
+							</span>
+						</div>
+					</div><!-- user -->
+					<div class="user">
+						<div class="quote">
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+							</p>
+						</div><!-- quote -->
+						<div class="user-info">
+							<h3>
+								John Doe
+							</h3>
+							<span>
+								Joe Blogs LLC
+							</span>
+						</div>
+					</div><!-- user -->
+					<div class="user">
+						<div class="quote">
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+							</p>
+						</div><!-- quote -->
+						<div class="user-info">
+							<h3>
+								John Doe
+							</h3>
+							<span>
+								Joe Blogs LLC
+							</span>
+						</div>
+					</div><!-- user -->
+					<div class="user">
+						<div class="quote">
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+							</p>
+						</div><!-- quote -->
+						<div class="user-info">
+							<h3>
+								John Doe
+							</h3>
+							<span>
+								Joe Blogs LLC
+							</span>
+						</div>
+					</div><!-- user -->
+					<div class="user">
+						<div class="quote">
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+							</p>
+						</div><!-- quote -->
+						<div class="user-info">
+							<h3>
+								John Doe
+							</h3>
+							<span>
+								Joe Blogs LLC
+							</span>
+						</div>
+					</div><!-- user -->
+					<div class="user">
+						<div class="quote">
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+							</p>
+						</div><!-- quote -->
+						<div class="user-info">
+							<h3>
+								John Doe
+							</h3>
+							<span>
+								Joe Blogs LLC
+							</span>
+						</div>
+					</div><!-- user -->
+				</div><!-- owl-carousel -->
+			</div>
+		</div><!-- row -->
+	</div><!-- container -->
+</section><!-- closes testimonails section -->
+
+<?php include'includes/modals/portfolio.php'; ?>
 <?php include'includes/footer.php'; ?>
