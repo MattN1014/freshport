@@ -25,7 +25,7 @@
 			 			Freshport
 			 		</a>
 			 		<button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggler">
-			 			Menu<i class="fa fa-align-justify"></i>
+			 			&#9776;
 			 		</button>
 			 		<div id="navigation" class="collapse navbar-collapse">
 			 			<ul class="navbar-nav ml-auto">
@@ -35,7 +35,7 @@
 			 					</a>
 			 				</li>
 			 				<li class="nav-item">
-			 					<a href="#" class="nav-link link-scroll">
+			 					<a href="#services" class="nav-link link-scroll">
 			 						Services
 			 					</a>
 			 				</li>
