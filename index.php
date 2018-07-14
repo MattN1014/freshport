@@ -248,4 +248,39 @@
 	</div><!-- container -->
 </section><!-- closes portfolio section -->
 
+<section id="stats" class="stats">
+	<div class="container-fluid text-center">
+		<div class="row">
+			<div class="item col-md-3">
+				<div class="icon">
+					<i class="fas fa-users"></i>
+				</div>
+				<h3 class="clients"></h3>
+				<h4>Happy clients</h4>
+			</div><!-- cloes item -->
+			<div class="item col-md-3">
+				<div class="icon">
+					<i class="fa fa-edit"></i>
+				</div>
+				<h3 class="websites"></h3>
+				<h4>Websites built</h4>
+			</div><!-- closes item -->
+			<div class="item col-md-3">
+				<div class="icon">
+					<i class="fa fa-code"></i>
+				</div>
+				<h3 class="code"></h3>
+				<h4>Lines of code written</h4>
+			</div><!-- closes item -->
+			<div class="item col-md-3">
+				<div class="icon">
+					<i class="fas fa-globe"></i>
+				</div>
+				<h3 class="places"></h3>
+				<h4>Places visited</h4>
+			</div>
+		</div><!-- row -->
+	</div><!-- container -->
+</section><!-- closes stats section -->
+
 <?php include'includes/footer.php'; ?>
