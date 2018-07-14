@@ -126,12 +126,57 @@
 <section id="portfolio" class="portfolio">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="item col-md-3">
+			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
 				<a href="" data-toggle="modal" data-target="my-port-item1">
 					<img class="img-fluid" src="assets/img/port/item-1.jpg">
 					<div class="overlay">
 						<div class="content">
 							<h2>Item Name</h2>
+							<p>
+								Lorem ipsum dolor sit amet
+							</p>
+						</div><!-- content -->
+					</div><!-- overlay -->
+				</a>
+			</div><!-- item -->
+			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
+				<a href="" data-toggle="modal" data-target="my-port-item2">
+					<img class="img-fluid" src="assets/img/port/item-2.jpg">
+					<div class="overlay">
+						<div class="content">
+							<h2>
+								Item Name
+							</h2>
+							<p>
+								Lorem ipsum dolor sit amet
+							</p>
+						</div><!-- content -->
+					</div><!-- overlay -->
+				</a>
+			</div><!-- item -->
+			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
+				<a href="" data-toggle="modal" data-target="my-port-item3">
+					<img class="img-fluid" src="assets/img/port/item-3.jpg">
+					<div class="overlay">
+						<div class="content">
+							<h2>
+								Item Name
+							</h2>
+							<p>
+								Lorem ipsum dolor sit amet
+							</p>
+						</div><!-- content -->
+					</div><!-- overlay -->
+				</a>
+			</div><!-- item -->
+			<div class="item col-md-3 wow fadeIn" data-wow-duration="4s" data-wow-delay="0.6s">
+				<a href="" data-toggle="modal" data-target="my-port-item24">
+					<img class="img-fluid" src="assets/img/port/item-4.jpg">
+					<div class="overlay">
+						<div class="content">
+							<h2>
+								Item Name
+							</h2>
 							<p>
 								Lorem ipsum dolor sit amet
 							</p>
