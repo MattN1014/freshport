@@ -194,6 +194,57 @@ p {
 /*===========================================================
                  	Portfolio section styles
 ===========================================================*/
+#portfolio .item {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+#portfolio .item a {
+  color: #595959;
+  display: block;
+  outline: none;
+  overflow: hidden;
+}
+#portfolio .item a:hover .overlay {
+  opacity: 1;
+}
+#portfolio .item a img {
+  height: 250px;
+  width: 100%;
+}
+#portfolio .item a .overlay {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(69, 183, 240, 0.9);
+  display: -ms-inline-flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  opacity: 0;
+  padding: 40px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  width: 100%;
+}
+#portfolio .item a .overlay .content h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+#portfolio .item a .overlay .content p {
+  font-size: 1.4rem;
+  line-height: 1px;
+  margin: 0;
+}
 /*===========================================================
                     Contact Section Styles
 ===========================================================*/
