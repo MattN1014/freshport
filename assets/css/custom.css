@@ -200,6 +200,9 @@ p {
 /*===========================================================
                  	Portfolio section styles
 ===========================================================*/
+#portfolio {
+  padding: 0;
+}
 #portfolio .item {
   margin: 0;
   overflow: hidden;
