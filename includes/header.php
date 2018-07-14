@@ -19,13 +19,13 @@
 	</head>
 	<body>
 		<header class="header">
-			 <nav class="navbar navbar-expand-lg fixed-top">
+			 <nav class="navbar navbar-expand-md fixed-top">
 			 	<div class="container-fluid">
 			 		<a class="navbar-brand" href="index.php">
 			 			Freshport
 			 		</a>
 			 		<button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggler">
-			 			&#9776;
+			 			<i class="fas fa-bars"></i>
 			 		</button>
 			 		<div id="navigation" class="collapse navbar-collapse">
 			 			<ul class="navbar-nav ml-auto">
