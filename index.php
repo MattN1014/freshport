@@ -283,16 +283,14 @@
 	</div><!-- container -->
 </section><!-- closes stats section -->
 
-<section id="testimonails" class="testimonials">
+<section id="testimonials" class="testimonials">
 	<div class="container text-center">
-		<header>
-			<h2 class="small-heading">
-				Testmonials
-			</h2>
-			<h3>
-				What our customers say
-			</h3>
-		</header>
+		<h1 class="small-heading">
+			Testmonials
+		</h1>
+		<h2>
+			What our customers say
+		</h2>
 		<div class="icon">
 			<i class="fas fa-quote-left"></i>
 		</div><!-- icon -->
@@ -309,9 +307,9 @@
 							<h3>
 								John Doe
 							</h3>
-							<span>
+							<h4>
 								Joe Blogs LLC
-							</span>
+							</h4>
 						</div>
 					</div><!-- user -->
 					<div class="user">
@@ -324,9 +322,9 @@
 							<h3>
 								John Doe
 							</h3>
-							<span>
+							<h4>
 								Joe Blogs LLC
-							</span>
+							</h4>
 						</div>
 					</div><!-- user -->
 					<div class="user">
@@ -339,9 +337,9 @@
 							<h3>
 								John Doe
 							</h3>
-							<span>
+							<h4>
 								Joe Blogs LLC
-							</span>
+							</h4>
 						</div>
 					</div><!-- user -->
 					<div class="user">
@@ -354,9 +352,9 @@
 							<h3>
 								John Doe
 							</h3>
-							<span>
+							<h4>
 								Joe Blogs LLC
-							</span>
+							</h4>
 						</div>
 					</div><!-- user -->
 					<div class="user">
@@ -369,9 +367,9 @@
 							<h3>
 								John Doe
 							</h3>
-							<span>
+							<h4>
 								Joe Blogs LLC
-							</span>
+							</h4>
 						</div>
 					</div><!-- user -->
 					<div class="user">
@@ -384,9 +382,9 @@
 							<h3>
 								John Doe
 							</h3>
-							<span>
+							<h4>
 								Joe Blogs LLC
-							</span>
+							</h4>
 						</div>
 					</div><!-- user -->
 				</div><!-- owl-carousel -->
