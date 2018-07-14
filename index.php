@@ -28,7 +28,7 @@
 				<img class="img-fluid" src="assets/img/user.png">
 			</div>
 			<div class="col">
-				<h2>
+				<h2 class="small-heading">
 					About Us
 				</h2>
 				<p>
@@ -41,5 +41,94 @@
 		</div><!-- row -->
 	</div><!-- container -->
 </section><!-- closes about section -->
+
+<section id="services" class="services">
+	<div class="container text-center">
+		<header>
+			<h1 class="small-heading">
+				Services
+			</h1>
+			<h2>
+				What we excel at
+			</h2>
+		</header>
+		<div class="row">
+			<div class="item col-md-4">
+				<div class="icon">
+					<i class="fa fa-edit"></i>
+				</div>
+				<h3>
+					Web Design
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+				</p>
+			</div><!-- item -->
+			<div class="item col-md-4">
+				<div class="icon">
+					<i class="fa fa-code"></i>
+				</div>
+				<h3>
+					Web Development
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+				</p>
+			</div><!-- item -->
+			<div class="item col-md-4">
+				<div class="icon">
+					<i class="fab fa-wordpress"></i>
+				</div>
+				<h3>
+					WordPress Development
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+				</p>
+			</div><!-- closes item -->
+			<div class="item col-md-4">
+				<div class="icon">
+					<i class="fas fa-database"></i>
+				</div>
+				<h3>
+					DataBase Management
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+				</p>
+			</div><!-- closes item -->
+			<div class="item col-md-4">
+				<div class="icon">
+					<i class="fas fa-exchange-alt"></i>
+				</div>
+				<h3>
+					Web Hosting
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+				</p>
+			</div><!-- closes item -->			
+			<div class="item col-md-4">
+				<div class="icon">
+					<i class="fas fa-cloud"></i>
+				</div>
+				<h3>
+					Cloud Storage
+				</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+				</p>
+			</div><!-- closes item -->
+		</div><!-- row -->
+	</div><!-- container -->
+</section><!-- closes services section -->
+
+<section id="portfolio" class="portfolio">
+	<div class="container-fluid">
+		<div class="row">
+
+		</div><!-- row -->
+	</div><!-- container -->
+</section><!-- closes portfolio section -->
 
 <?php include'includes/footer.php'; ?>
