@@ -54,6 +54,9 @@ p {
   color: #45b7f0;
   transition: all 0.4s;
 }
+.header .navbar .navbar-toggler .fa-bars {
+  color: #ffffff;
+}
 .header .navbar-scrolled {
   background-color: #ffffff;
   border-bottom: 1px solid #45b7f0;
@@ -63,6 +66,9 @@ p {
   color: #34495e;
 }
 .header .navbar-scrolled .navbar-nav > .nav-item > .nav-link {
+  color: #34495e;
+}
+.header .navbar-scrolled .navbar-toggler .fa-bars {
   color: #34495e;
 }
 /*===========================================================
@@ -273,4 +279,15 @@ footer .des-by a {
 footer .des-by a:hover {
   color: #45b7f0;
   text-decoration: none;
+}
+/*===========================================================
+                    Responsive Stuff
+===========================================================*/
+@media (max-width: 576px) {
+  .header .navbar .navbar-nav {
+    background-color: #ffffff;
+  }
+  .header .navbar .navbar-nav > .nav-item > .nav-link {
+    color: #34495e;
+  }
 }

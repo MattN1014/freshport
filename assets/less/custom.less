@@ -91,6 +91,12 @@ p {
 	transition: all 0.4s;
 }
 
+//Responsive menu styles
+
+.header .navbar .navbar-toggler .fa-bars {
+	color: @w;
+}
+
 //navbar when scrolled styles
 
 .header .navbar-scrolled {
@@ -104,6 +110,10 @@ p {
 }
 
 .header .navbar-scrolled .navbar-nav > .nav-item > .nav-link {
+	color: @primary;
+}
+
+.header .navbar-scrolled .navbar-toggler .fa-bars {
 	color: @primary;
 }
 
@@ -361,4 +371,19 @@ footer .des-by a {
 footer .des-by a:hover {
 	color: @secondry;
 	text-decoration: none;
+}
+
+/*===========================================================
+                    Responsive Stuff
+===========================================================*/
+
+//Small Devices (landscape phones & below)
+@media (max-width: 576px) {
+	.header .navbar .navbar-nav {
+		background-color: @w;
+	}
+
+	.header .navbar .navbar-nav > .nav-item > .nav-link {
+		color: @primary;
+	}
 }
