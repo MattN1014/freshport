@@ -283,6 +283,46 @@ p {
 /*===========================================================
                     Testimonails Section Styles
 ===========================================================*/
+#testimonials h1 {
+  margin-bottom: 0;
+}
+#testimonials h2 {
+  color: #737373;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
+#testimonials .icon {
+  color: #34495e;
+  font-size: 4rem;
+  margin: 35px auto 0;
+}
+#testimonials .user-info {
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+#testimonials .user-info h3 {
+  color: #737373;
+  font-size: 2.6rem;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+#testimonials .user-info h4 {
+  color: #999999;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#testimonials .owl-dots .owl-dot span {
+  background-color: #45b7f0;
+  height: 15px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 15px;
+}
+#testimonials .owl-dots .owl-dot.active span {
+  background-color: #0e74a8;
+}
 /*===========================================================
                     Contact Section Styles
 ===========================================================*/
@@ -366,5 +406,11 @@ footer .des-by a:hover {
   }
   .header .navbar .navbar-nav > .nav-item > .nav-link {
     color: #34495e;
+  }
+  footer .copyright {
+    text-align: center;
+  }
+  footer .des-by {
+    text-align: center;
   }
 }

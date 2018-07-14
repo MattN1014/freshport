@@ -373,6 +373,54 @@ p {
                     Testimonails Section Styles
 ===========================================================*/
 
+#testimonials h1 {
+	margin-bottom: 0;
+}
+
+#testimonials h2 {
+	color: lighten(@b, 45%);
+	font-size: 2.6rem;
+	margin-bottom: 20px;
+}
+
+#testimonials .icon {
+	color: @primary;
+	font-size: 4rem;
+	margin: 35px auto 0;
+}
+
+#testimonials .user-info {
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+
+#testimonials .user-info h3 {
+	color: lighten(@b, 45%);
+	font-size: 2.6rem;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+#testimonials .user-info h4 {
+	color: lighten(@b, 60%);
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#testimonials .owl-dots .owl-dot span {
+	background-color: @secondry;
+	height: 15px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	width: 15px;
+}
+
+#testimonials .owl-dots .owl-dot.active span {
+	background-color: darken(@secondry, 25%);
+}
+
 /*===========================================================
                     Contact Section Styles
 ===========================================================*/
@@ -475,5 +523,13 @@ footer .des-by a:hover {
 
 	.header .navbar .navbar-nav > .nav-item > .nav-link {
 		color: @primary;
+	}
+
+	footer .copyright {
+		text-align: center;
+	}
+
+	footer .des-by {
+		text-align: center;
 	}
 }
