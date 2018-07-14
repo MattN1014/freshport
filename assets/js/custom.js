@@ -25,32 +25,52 @@ $(function (){
         }, 1000);
     });
 
-});
+    //Stats
+    $('#stats').ready(function() {
+        $('.websites').animationCounter({
+            start: 0,
+            step: 1,
+            end: 30,
+            delay: 600
+        });
+        $('.code').animationCounter({
+            start: 0,
+            step: 10,
+            end: 15000,
+            delay: 400
+        });
+        $('.places').animationCounter({
+            start: 0,
+            step: 1,
+            end: 35,
+            delay: 1200
+        });
+        $('.clients').animationCounter({
+            start: 0,
+            step: 1,
+            end: 30,
+            delay: 1500
+        });
+    });
 
-//Stats
-$('#stats').ready(function() {
-    $('.websites').animationCounter({
-        start: 0,
-        step: 1,
-        end: 30,
-        delay: 600
+    //Testimonial Slider
+    $('.testimonials-slider').owlCarousel({
+        loop: true,
+        margin: 20,
+        dots: true,
+        nav: false,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
     });
-    $('.code').animationCounter({
-        start: 0,
-        step: 10,
-        end: 15000,
-        delay: 400
-    });
-    $('.places').animationCounter({
-        start: 0,
-        step: 1,
-        end: 35,
-        delay: 1200
-    });
-    $('.clients').animationCounter({
-        start: 0,
-        step: 1,
-        end: 30,
-        delay: 1500
-    });
+
 });
