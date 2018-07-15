@@ -433,6 +433,38 @@
 				<p>
 					At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
 				</p>
+				<ul class="social-links list-inline">
+					<li class="list-inline-item">
+						<a target="_blank" title="Facebook" href="">
+							<i class="fab fa-facebook"></i>
+						</a>
+					</li>	
+					<li class="list-inline-item">
+						<a target="_blank" title="Instagram" href="">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" title="Linkedin" href="">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" title="Pinterest" href="">
+							<i class="fab fa-pinterest"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" title="Twitter" href="">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" title="YouTube" href="">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</li>
+				</ul><!-- social-links -->
 			</div><!-- text col -->
 			<div class="form col-md-7">
 
