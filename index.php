@@ -421,7 +421,7 @@
 </section><!-- closes clients section -->
 
 <section id="contact" class="contact">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="text col-md-5">
 				<h1 class="small-heading">
@@ -467,7 +467,23 @@
 				</ul><!-- social-links -->
 			</div><!-- text col -->
 			<div class="form col-md-7">
-
+				<form id="contact-form" action="" mothod="post">
+					<div class="form-group">
+						<input id="name" type="text" name="name"required>
+						<label for="name">Your full name</label>
+					</div>
+					<div class="form-group">
+						<input id="email" type="email" name="email"  required>
+						<label for="email">Your email address</label>
+					</div>
+					<div class="form-group">
+						<textarea id="message" name="message" require=""></textarea> 
+						<label for="message">How can we help you?</label>
+					</div>
+					<div class="form-group">
+						<input type="submit" value="Send Message" class="btn btn-primary btn-lg">
+					</div>
+				</form>
 			</div><!-- form col -->
 		</div><!-- row -->
 	</div><!-- container -->
