@@ -73,13 +73,4 @@ $(function (){
         }
     });
 
-    //Contact form 
-    $('#contact-form').validate({
-        messages: {
-            name: 'please enter your name',
-            email: 'please enter your email address',
-            message: 'please enter your message'
-        }
-    });
-
 });
