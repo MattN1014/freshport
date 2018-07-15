@@ -393,5 +393,53 @@
 	</div><!-- container -->
 </section><!-- closes testimonails section -->
 
+<section id="clients-banner" class="clients-banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<div class="img-wrapper">
+					<img class="img-fluid" src="assets/img/client-logos/work1.png">
+				</div>
+			</div><!-- col -->
+			<div class="col-md-3 col-sm-6">
+				<div class="img-wrapper">
+					<img class="img-fluid" src="assets/img/client-logos/work2.png">
+				</div>
+			</div><!-- col -->
+			<div class="col-md-3 col-sm-6">
+				<div class="img-wrapper">
+					<img class="img-fluid" src="assets/img/client-logos/work3.png">
+				</div>
+			</div><!-- col -->
+			<div class="col-md-3 col-sm-6">
+				<div class="img-wrapper">
+					<img class="img-fluid" src="assets/img/client-logos/work4.png">
+				</div>
+			</div><!-- col -->
+		</div><!-- row -->
+	</div><!-- container -->
+</section><!-- closes clients section -->
+
+<section id="contact" class="contact">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="text col-md-5">
+				<h1 class="small-heading">
+					Contact Us
+				</h1>
+				<h2>
+					We will be happy to hear from you.
+				</h2>
+				<p>
+					At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+				</p>
+			</div><!-- text col -->
+			<div class="form col-md-7">
+
+			</div><!-- form col -->
+		</div><!-- row -->
+	</div><!-- container -->
+</section><!-- contact section -->
+
 <?php include'includes/modals/portfolio.php'; ?>
 <?php include'includes/footer.php'; ?>
