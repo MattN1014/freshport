@@ -469,16 +469,13 @@
 			<div class="form col-md-7">
 				<form id="contact-form" action="" mothod="post">
 					<div class="form-group">
-						<input id="name" type="text" name="name"required>
-						<label for="name">Your full name</label>
+						<input id="name" type="text" name="name"  placeholder="Your full name" required>
 					</div>
 					<div class="form-group">
-						<input id="email" type="email" name="email"  required>
-						<label for="email">Your email address</label>
+						<input id="email" type="email" name="email" placeholder="Your email address"  required>
 					</div>
 					<div class="form-group">
-						<textarea id="message" name="message" require=""></textarea> 
-						<label for="message">How can we help you?</label>
+						<textarea id="message" name="message" placeholder="How can we help?" require=""></textarea> 
 					</div>
 					<div class="form-group">
 						<input type="submit" value="Send Message" class="btn btn-primary btn-lg">
