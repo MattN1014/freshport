@@ -24,7 +24,7 @@ section {
                     Site wide typography
 ===========================================================*/
 .small-heading {
-  color: #808080;
+  color: #999999;
   font-size: 2.3rem;
 }
 p {
@@ -345,6 +345,34 @@ p {
 /*===========================================================
                     Contact Section Styles
 ===========================================================*/
+#contact h1 {
+  margin-bottom: 0;
+}
+#contact h2 {
+  color: #737373;
+  font-size: 2.6rem;
+  margin-bottom: 10px;
+}
+#contact p {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+#contact .social-links {
+  margin: 15px auto;
+}
+#contact .social-links > .list-inline-item > a {
+  background-color: #45b7f0;
+  border-radius: 100%;
+  padding: 10px 10px 5px 10px;
+}
+#contact .social-links > .list-inline-item > a > i {
+  color: #ffffff;
+}
+#contact .social-links > .list-inline-item > a:hover {
+  background-color: #34495e;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
 /*===========================================================
                     Modal Styles
 ===========================================================*/
