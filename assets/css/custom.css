@@ -373,6 +373,32 @@ p {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
+#contact .form-group {
+  position: relative;
+}
+#contact .form-group input:not([type=submit]),
+#contact .form-group textarea {
+  border: none;
+  border-bottom: 1px solid #45b7f0;
+  color: #34495e;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+}
+#contact .form-group textarea {
+  max-height: 320px;
+  resize: vertical;
+}
+#contact .form-group textarea + label {
+  bottom: 17px;
+}
+#contact .form-group [type=submit] {
+  color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
 /*===========================================================
                     Modal Styles
 ===========================================================*/
@@ -453,6 +479,9 @@ footer .des-by a:hover {
   }
   .header .navbar .navbar-nav > .nav-item > .nav-link {
     color: #34495e;
+  }
+  #clients-banner .img-wrapper {
+    margin-bottom: 10px;
   }
   footer .copyright {
     text-align: center;
